@@ -7,7 +7,7 @@ $(function(){
             btn.html('x');
             navMenu.slideDown(1000);
             $('body').css('overflow', 'hidden');
-            $(".banner-out").css({display:"none"}),
+            $(".banner-out").css({display:"none"})
             $(".imgs-outbox").css({display:"none"})
             $(".bottom-out").css({display:"none"})
         }
@@ -15,8 +15,7 @@ $(function(){
             btn.html('=');
             navMenu.slideUp();
             $('body').css('overflow', 'visible');
-            $('body').css('overflow', 'hidden');
-            $(".banner-out").css({display:"block"}),
+            $(".banner-out").css({display:"block"})
             $(".imgs-outbox").css({display:"block"})
             $(".bottom-out").css({display:"block"})
         }
@@ -26,6 +25,9 @@ $(function(){
            navMenu.css({display:"none"})
            btn.html('=');
            $('body').css('overflow', 'visible');
+            $(".banner-out").css({display:"block"})
+            $(".imgs-outbox").css({display:"block"})
+            $(".bottom-out").css({display:"block"})
        }
    });
 
