@@ -7,11 +7,18 @@ $(function(){
             btn.html('x');
             navMenu.slideDown(1000);
             $('body').css('overflow', 'hidden');
+            $(".banner-out").css({display:"none"}),
+            $(".imgs-outbox").css({display:"none"})
+            $(".bottom-out").css({display:"none"})
         }
         else if (btn.html() == 'x') {
             btn.html('=');
             navMenu.slideUp();
             $('body').css('overflow', 'visible');
+            $('body').css('overflow', 'hidden');
+            $(".banner-out").css({display:"block"}),
+            $(".imgs-outbox").css({display:"block"})
+            $(".bottom-out").css({display:"block"})
         }
     });
    $(window).resize(function(){
